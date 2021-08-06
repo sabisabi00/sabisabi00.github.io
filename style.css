@@ -1,0 +1,213 @@
+body {
+  margin:0;
+  scroll-behavior: smooth;
+  background-color: #4B4E6C;
+   /* #663464;*/
+  
+  
+} 
+
+/*NAV BAR*/
+.nav {
+  list-style:none;
+  display: flex; 
+   
+}
+
+nav { 
+  background-color: #3B8F5E;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 67px;
+  text-align: center;
+  font-family: "Open Sans Condensed";
+  text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.4);
+ 
+}
+
+li {
+  margin-right: 20px;  
+}
+
+.nav-link
+{
+  text-decoration:none;
+  color: white;
+  font-size: 20px;
+  padding: 30px 30px 24px; 
+}
+
+.nav-link:hover {
+  background-color: #6C4B5E;
+}
+
+/*WELCOME*/
+
+#welcome-section {
+  background-color:#4B4E6C;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  font-family: "Ubuntu";
+  text-align: center;
+  padding-top: 8%;
+  font-size: 57px;
+  color: #C7CAE9;
+  -webkit-text-stroke: 2.2px #080B30;
+  font-weight: 700;
+  line-height: 5px;
+  
+}
+
+p {
+  text-align: center;
+  font-family: Quicksand;
+  font-weight: 400;
+  font-size: 25px;
+  font-style: italic;
+  margin-top: 0;
+  
+}
+
+/*PROYECTOS*/
+
+#pros {
+  width: 100%;
+  height: 90%;
+  
+  
+}
+
+#projects {
+  background-color: #663464;
+  text-align: center;
+  margin:auto;
+  padding-top: 5%;
+}
+
+.pros-header {
+  margin-bottom: 5%;
+  font-size: 40px;
+}
+h2 {
+  font-family: "Ubuntu";
+  font-size: 30px;
+  -webkit-text-stroke: 2px #2F1C37;
+  color: #E9B7DB;
+}
+
+.imagen-pro {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+}
+.back {
+ font-size: 20px;
+  font-style: normal;
+  color:white;
+}
+
+.back:hover {
+  background-color: #BD2CFF;
+}
+
+.cuadro {
+  width: 40%;
+  padding: 0 5%;
+  text-align: center;
+}
+
+
+.proyectos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  height: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: auto;
+  
+}
+
+/*CONTACTO*/
+
+#contact {
+  width: 100%;
+  height: 100vh;
+  background-color:#4B4E6C;
+  text-align: center;
+}
+
+#con-title {
+  padding-top: 10%;
+  color: #C7CAE9;
+  -webkit-text-stroke: 2.2px #080B30;
+  font-size: 57px;
+  line-height: 5px;
+}
+
+
+.redes-img {
+  height: 5%;
+  width: 5%;
+}
+
+#twitter {
+  width: 80%;
+  margin-top: 10px;
+}
+
+#facebook {
+  width: 65%;
+  margin-top: 15px;
+}
+
+#github {
+  width: 70%;
+  margin-top: 15px;
+}
+
+#whats {
+  width: 65%;
+  margin-top: 15px;
+  margin-left: 0;
+}
+
+#email {
+  width: 100%;
+}
+
+
+.redes {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: auto;
+  padding-top: 5%;
+}
+
+.redes-div {
+  width: 20%;
+  height: 20%;
+  
+}
+
+@media (max-width: 700px) {
+  .proyectos {
+    display: flex;
+    flex-direction: columns;
+  }
+  
+}
